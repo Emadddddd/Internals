@@ -1,7 +1,9 @@
-if __name__==__main__":
+import cv2
+
+if __name__ == "__main__":
 
     #--- Define HSV limits
-    blue_min = (77,40,0)
+    blue_min = (77, 40, 0)
     blue_max = (101, 255, 255) 
     
     #--- Define area limit [x_min, y_min, x_max, y_max] adimensional (0.0 to 1.0) starting from top left corner
